@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/valkyrie.jpeg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.411);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: relative;
+    justify-content: left;
+}
+
+input {
+    text-align: relative;
+    background-color: rgba(0, 195, 255, 0.253);
+    font-size: 16px;
+    border: transparent;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    color: rgb(4, 0, 255);
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #040b74d3;
+    color: #fff;
+    transition: all .3s ease-out;
+}
+
+.campo-invalido {
+    border: 2px solid red;
+}

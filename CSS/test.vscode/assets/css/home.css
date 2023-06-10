@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'roboto' sans-serif ;
+}
+body {
+  background-image: url("../image/Valkyrie1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top:100px
+  }
+  .card{
+    background-color:#ffffff40;
+    padding:10px;
+    box-shadow: 3px 3px 1px 0px #00000050;
+    
+  }
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#ff0000cc;
+    font-size: 5em;
+    text-shadow:1px 1px 1px #000000;
+    
+  }
+
+  .label-float input{
+    width:100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #3223db;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size:16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+  }
+  .label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .label-float input:focus{
+    border-bottom: 2px solid #3223d3;
+  }
+  .label-float label{
+    color:#272262;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top:13px;
+    transition: all .3s ease-out;
+  }
+  .label-float input:focus + label,
+  .label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #4038a0;
+    }
+  
+  button{
+    background-color: #0d009c50;
+    border-color: #0d009c;
+    color: rgba(248, 203, 203, 0.856);
+    padding: 12px;
+    font-weight: bold;
+    font-size: 18pt;
+    border-radius:4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+  }
+  button:hover{
+    background-color:#0d009c;
+    color:#fff;
+    transition: all .3s ease-out;
+  }
+  .justify-center{
+    display:flex;
+    justify-content:center;
+  }
+ 

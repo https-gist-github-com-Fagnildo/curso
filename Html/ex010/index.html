@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou simplesmente Aumente e Diminua o Tamanho do seu Navegador </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="‎imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px )" srcset="‎imagens/foto-m.png" type="image/png">
+        
+        <img src="‎imagens/foto-g.png" alt="imagen flexivel"> 
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em html5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Tocou-me-fernandinho.mp3" type="audio/mpeg">
+        <source src="midia/Tocou-me-fernandinho.ogg" type="audio/ogg">
+        <source src="midia/Tocou-me-fernandinho.wave" type="audio/wave">
+        <p>Infelizmente o seu navegador não consegui reproduzir audio. 
+        <a href="midia/Tocou-me-fernandinho.mp3"> </a> Clique aqui para baixar o arquivo Mp3 </p>
+    
+    </audio>
+</body>
+</html>
